@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vds-Lx-qNF">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5JS-w0-AL2">
+            <objects>
+                <viewController id="vds-Lx-qNF" customClass="ViewController" customModule="MaterialTextFieldExampleStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="731-Gn-EzZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bwq-ee-cSb" customClass="MaterialTextField" customModule="MTTextField">
+                                <rect key="frame" x="20" y="396" width="353" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="lFc-3s-N4l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="email"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material TextField Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIe-Ff-Jiq">
+                                <rect key="frame" x="95" y="355.66666666666669" width="203" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uLK-9F-ggG"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="Bwq-ee-cSb" firstAttribute="leading" secondItem="uLK-9F-ggG" secondAttribute="leading" constant="20" id="4R4-Bm-wbI"/>
+                            <constraint firstItem="uLK-9F-ggG" firstAttribute="trailing" secondItem="Bwq-ee-cSb" secondAttribute="trailing" constant="20" id="9cF-Gt-BUF"/>
+                            <constraint firstItem="MIe-Ff-Jiq" firstAttribute="centerX" secondItem="731-Gn-EzZ" secondAttribute="centerX" id="Lgu-yJ-xzq"/>
+                            <constraint firstItem="Bwq-ee-cSb" firstAttribute="top" secondItem="MIe-Ff-Jiq" secondAttribute="bottom" constant="20" id="O0J-cx-zsh"/>
+                            <constraint firstItem="Bwq-ee-cSb" firstAttribute="centerX" secondItem="731-Gn-EzZ" secondAttribute="centerX" id="OfQ-6T-iKV"/>
+                            <constraint firstItem="Bwq-ee-cSb" firstAttribute="centerY" secondItem="731-Gn-EzZ" secondAttribute="centerY" id="ZTC-z7-8Gg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Bwq-ee-cSb" id="yGz-qR-ozK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fU1-wT-NBO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-496.94656488549617" y="151.40845070422537"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
