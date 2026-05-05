@@ -114,7 +114,6 @@
 			mainGroup = BCD0FE2E2FAA2AC1005D8A7A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BCD0FE4F2FAA2ADE005D8A7A /* XCLocalSwiftPackageReference "../../MTTextField" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BCD0FE382FAA2AC1005D8A7A /* Products */;
@@ -352,13 +351,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		BCD0FE4F2FAA2ADE005D8A7A /* XCLocalSwiftPackageReference "../../MTTextField" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../MTTextField;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		BCD0FE502FAA2ADE005D8A7A /* MTTextField */ = {

@@ -16,7 +16,11 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MTTextField"
+            name: "MTTextField",
+            path: "Sources",
+            sources: [
+                "MTTextField/"
+            ],
         ),
 
     ]
