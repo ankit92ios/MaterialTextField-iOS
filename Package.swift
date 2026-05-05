@@ -18,9 +18,6 @@ let package = Package(
         .target(
             name: "MTTextField",
             path: "Sources",
-            sources: [
-                "MTTextField/"
-            ],
         ),
 
     ]
