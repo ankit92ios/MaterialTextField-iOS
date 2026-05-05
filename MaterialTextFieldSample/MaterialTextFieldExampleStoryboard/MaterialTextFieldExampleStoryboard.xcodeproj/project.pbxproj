@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCCA41352FAA5CBE009D001E /* MTTextField in Frameworks */ = {isa = PBXBuildFile; productRef = BCCA41342FAA5CBE009D001E /* MTTextField */; };
 		BCD0FE512FAA2ADE005D8A7A /* MTTextField in Frameworks */ = {isa = PBXBuildFile; productRef = BCD0FE502FAA2ADE005D8A7A /* MTTextField */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD0FE512FAA2ADE005D8A7A /* MTTextField in Frameworks */,
+				BCCA41352FAA5CBE009D001E /* MTTextField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			name = MaterialTextFieldExampleStoryboard;
 			packageProductDependencies = (
 				BCD0FE502FAA2ADE005D8A7A /* MTTextField */,
+				BCCA41342FAA5CBE009D001E /* MTTextField */,
 			);
 			productName = MaterialTextFieldExampleStoryboard;
 			productReference = BCD0FE372FAA2AC1005D8A7A /* MaterialTextFieldExampleStoryboard.app */;
@@ -114,6 +117,7 @@
 			mainGroup = BCD0FE2E2FAA2AC1005D8A7A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				BCCA41332FAA5CBE009D001E /* XCLocalSwiftPackageReference "../../MTTextField" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BCD0FE382FAA2AC1005D8A7A /* Products */;
@@ -352,7 +356,18 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		BCCA41332FAA5CBE009D001E /* XCLocalSwiftPackageReference "../../MTTextField" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../MTTextField;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		BCCA41342FAA5CBE009D001E /* MTTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MTTextField;
+		};
 		BCD0FE502FAA2ADE005D8A7A /* MTTextField */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MTTextField;
